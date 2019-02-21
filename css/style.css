@@ -9,8 +9,10 @@ html {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #2c2f33;
     font-family: "Laila";
+    color: white;
+    text-align: center;
 
 }
 
@@ -19,7 +21,7 @@ body {
     color: aliceblue;
     width: 100%;
     position: relative;
-
+    text-align: left;
 }
 
 .logo {
@@ -34,6 +36,7 @@ body {
     margin-left: 30px;
     position: relative;
     display: inline-block;
+    text-align: left;
 }
 
 .menu li {
@@ -44,6 +47,7 @@ body {
     display: inline-block;
     padding: 15px;
     border-left: 5px;
+    text-align: left;
 
 }
 
@@ -178,4 +182,20 @@ textarea {
 
 .thanks a:hover {
     background-color: gray;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 12px #000000;
+    font-size: 40px;
+}
+h1.centered {font-size: 62px
 }
