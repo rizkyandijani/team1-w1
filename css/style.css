@@ -4,6 +4,24 @@
 
 }
 
+/* latin */
+@font-face {
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Laila Regular'), local('Laila-Regular'), url(https://fonts.gstatic.com/s/laila/v5/LYjMdG_8nE8jDLRagCY.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Laila Bold'), local('Laila-Bold'), url(https://fonts.gstatic.com/s/laila/v5/LYjBdG_8nE8jDLzhpTNHjV8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -69,6 +87,12 @@ li a {
     top: 580px;
     left: 1230px;
     text-decoration: none;
+    opacity: 0.2;
+}
+
+.top:hover {
+    opacity: 1;
+
 }
 
 .footer {
@@ -155,6 +179,12 @@ textarea {
     padding: 12px 20px;
 }
 
+.t-container {
+
+    width: 100%;
+    height: 100%;
+}
+
 .thanks {
     position: static;
     padding: 30px;
@@ -162,7 +192,8 @@ textarea {
     width: 800px;
     margin: 0 auto;
     text-align: center;
-
+    font-family: "Laila";
+    color: antiquewhite;
 }
 
 .thanks a {
@@ -172,10 +203,12 @@ textarea {
     position: relative;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: black;
-    color: wheat;
+    background-color: white;
+    color: black;
 }
 
 .thanks a:hover {
-    background-color: gray;
+    background-color: black;
+    color: white;
+
 }
