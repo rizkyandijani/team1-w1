@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Laila:400,700" rel="stylesheet">
+
     <title>RaceLounge</title>
 </head>
 
 <body>
     <div class="header" id="header">
+        <div class="logo">
+            <h2>RaceLounge</h2>
+        </div>
         <div class="menu">
             <ul>
                 <li><a href="#"> Home</a></li>
@@ -24,7 +29,7 @@
         </div>
     </div>
     <div class="banner">
-        <img src="pic/banner2.jpg" width="800px">
+        <img src="pic/banner3.jpg" width="800px">
         <h1>RaceLounge</h1>
     </div>
 
@@ -60,19 +65,55 @@
 
     <!--Contact Us Section-->
     <div class="contact" id="contact">
-        <h1>Contact US</h1>
+
+        <form action="thanks.html" method="GET">
+            <table border="0">
+                <tr>
+                    <!--
+                    <td width="20%"><label for="name">Name </label></td>-->
+                    <td><input type="text" name="name" id="name" required placeholder="Full Name"></td>
+                </tr>
+                <tr>
+                    <!--<td><label for="email">e-mail </label></td>-->
+                    <td><input type="email" name="email" id="email" required placeholder="E-mail"><br></td>
+                </tr>
+                <tr>
+                    <td><input type="tel" name="tel" id="tel" required placeholder="Phone number"></td>
+                </tr>
+                <tr>
+                    <!--td valign="top"><label for="message">Message</label></td>-->
+                    <td><textarea name="message" id="message" cols="50" rows="7" required placeholder="type your message here"></textarea></td>
+                </tr>
+                <tr>
+
+                    <td align="center"><input type="submit" name="submit" id="submit" value="Submit" class="button1"></td>
+                </tr>
+            </table>
+        </form>
+
+        <p>
+            Jl. Sultan Iskandar Muda No. 7<br>
+            Kebayoran Lama, Jakarta Selatan<br>
+            12240<br>
+            <br>
+            E: admin@racelounge.com<br>
+            P: (+62) 21 7238756<br>
+            M: (+62) 819 08878010<br>
+        </p>
 
     </div>
 
-    <div class="top">
-        <h2><a href="#header"> ^</a></h2>
+    <div class="
+                            top">
+        <h2><a href="#header"><img src="pic/top1.png" height="60" width="60"
+                    "></a></h2>
     </div>
 
 
 
 
-    <div class="footer">
-        <h1>RaceLounge</h1>
+    <div class=" footer">
+                <h1>RaceLounge</h1>
     </div>
 </body>
 
