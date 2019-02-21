@@ -13,7 +13,10 @@ body {
     font-family: "Laila";
     color: white;
     text-align: center;
+    line-height: 1.8;
+}
 
+p {padding-left: 48px; padding-right: 48px;
 }
 
 .header {
@@ -65,6 +68,15 @@ li a {
     width: 100%;
 }
 
+#mainlogo {font-size: 100px;
+}
+
+#oran {color: #f0a35c;
+}
+
+.about {padding-left: 48px; padding-right: 48px;
+}
+
 .top {
     height: 60px;
     width: 60px;
@@ -82,8 +94,8 @@ li a {
     color: white;
 }
 
-.footer h1 {
-    padding: 15px;
+.footer h4 {
+    padding: 18px;
     margin: 0 auto;
     text-align: center;
 
@@ -189,6 +201,7 @@ textarea {
     text-align: center;
     color: #ffffff;
 }
+
 .centered {
     position: absolute;
     top: 50%;
@@ -197,5 +210,14 @@ textarea {
     text-shadow: 0 0 12px #000000;
     font-size: 50px;
 }
-h1.centered {font-size: 72px
+
+h1.centered {font-size: 68px;
+}
+
+.sims {font-size: 20px;
+}
+
+.contactinfotext {font-size: 18px;
+    color: black;
+    text-shadow: 0 0 4px #ffffff;
 }
