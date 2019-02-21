@@ -154,3 +154,28 @@ textarea {
     width: 100%;
     padding: 12px 20px;
 }
+
+.thanks {
+    position: static;
+    padding: 30px;
+    margin: 40px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.thanks a {
+    text-decoration: none;
+    margin: 20px;
+    top: 20px;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: wheat;
+}
+
+.thanks a:hover {
+    background-color: gray;
+}
