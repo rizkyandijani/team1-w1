@@ -22,7 +22,7 @@
                 <li><a href="#"> Home</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#facilities"> Facilities</a></li>
-                <li><a href="#price"> Prices</a></li>
+                <li><a href="#price2"> Prices</a></li>
                 <li><a href="#hour"> Hours and Location</a></li>
                 <li><a href="#reserve"> Reserve a Spot</a></li>
                 <li><a href="#contact"> Contact Us</a></li>
@@ -40,6 +40,7 @@
     <!-- ***************** Start About Us Section ***************** -->
     <div class="about" id="about">
         <div class="pabout">
+
             <p><br>
                 <p id="oran">RaceLounge is the first Sim Racing Center in Indonesia.<br>
                     Our focus is to provide a world class sim racing experience!<br>
@@ -82,7 +83,7 @@
             <div class="container title-page">
                 <!-- <img src="pic/Center1.sjpg" alt="Interior photo of RaceLounge" width="100%" height="400px"><br> -->
                 <h1 class="centered"> Our Facilities </h1>
-            </div>
+            </div><br>
             <p>
                 Our spacious facility is located in the middle of South Jakarta. We have 4 sim-racing rigs available at
                 our space,
@@ -135,15 +136,47 @@
 
 
     <!-- ***************** Start price Section ***************** -->
-    <div class="price" id="price">
-        <h1>Prices</h1>
-
-
-    </div>
+    <!-- <div class="price" id="price" style="background-color: aqua">
+        <h1 style="text-shadow: 0 0 12px #000000;">Prices</h1>
+        <p>feel the racing sensation and compete with other driver. No need to worry about the car and the circuit,
+            here you can try the racing simulator and get the feel of driving a racing car. with a friendly price
+            you can enjoy it alone or with your friend.
+            <br></p>
+        <div class="midprice">
+            <h5><strong>Price</strong></h5>
+            <ul>
+                <li>30 Minute..............$30</li>
+                <li>1 Hour.................$90</li>
+                <li>2 Hour.................$160</li>
+                <li>3 Hour.................$240</li>
+            </ul>
+            <br>
+            <h2><a href="#reserve"> BOOK NOW ! </a></h2>
+        </div>
+        </p>
+        <br><br><br><br><br><br><br>
+    </div> -->
     <!-- ***************** End price Section ***************** -->
 
     <!-- ***************** Start hours and location Section ***************** -->
     <div class="hour" id="hour">
+        <br>
+        <h1 id="price2">Prices</h1>
+        <p>feel the racing sensation and compete with other driver. No need to worry about the car and the circuit,
+            here you can try the racing simulator and get the feel of driving a racing car. with a friendly price
+            you can enjoy it alone or with your friend.
+            <br></p>
+        <div class="midprice">
+            <h5><strong>Price</strong></h5>
+            <ul>
+                <li>1 Hour.................Rp. 100.000</li>
+                <li>2 Hour.................Rp. 180.000</li>
+                <li>3 Hour.................Rp. 250.000</li>
+            </ul>
+            <br>
+            <h2><a href="#reserve"> BOOK NOW ! </a></h2>
+        </div>
+        </p>
         <h1>Hours and Location</h1>
         <p>
             <br>
@@ -165,8 +198,82 @@
 
     <!-- ***************** Start reserve a spot Section *****************-->
     <div class="reserve" id="reserve">
-        <h1>Reserve a spot</h1>
+        <h1 style="text-shadow: 0 0 12px #000000;">Reserve a spot</h1>
+        <p><u>Please use the form below to make a booking:</u></p>
 
+        <form action="booked.html" method="GET">
+            <table border="0" cellpadding="20">
+                <tr>
+                    <td width="200"><label for="firstname">First Name</label></td>
+                    <td width="400">
+
+                        <input type="text" name="firstname" id="firstname" required placeholder="First Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">Last Name</label></td>
+                    <td>
+
+                        <input type="text" name="lastname" id="lastname" required placeholder="Last Name"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="phonenumber">Phone Number</label></td>
+                    <td>
+
+                        <input type="tel" name="phonenumber" id="phonenumber" required placeholder="Phone Number"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td>
+
+                        <input type="text" name="address" id="address" required placeholder="Address"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail</label></td>
+                    <td>
+
+                        <input type="email" name="email" id="email" required placeholder="Email"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="date"> Choose a Date</label><br></td>
+                    <td align="center">
+
+                        <input type="date" name="date" id="date" required placeholder="Date"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Person">Person</label><br></td>
+                    <td align="center">
+
+                        <input type="radio" name="person" id="individual" required>
+                        <label for=individual>Individual</label>
+                        <input type="radio" name="person" id="Group" required>
+                        <label for="Group">Group</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="package">Package</label></td>
+                    <td align="center">
+
+                        <select id="Package" name="Package">Choose a package
+                            <option value="1 hour">1 Hour</option>
+                            <option value="2 hour">2 Hour</option>
+                            <option value="3 hour">3 Hour</option>
+                            <option value="4 hour">4 Hour</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2">
+                        <input type="submit" name="submit" id="submit" value="book" class="button2">
+                    </td>
+                </tr>
+            </table>
+        </form>
     </div>
     <!-- ***************** end reserve a spot Section *****************-->
 

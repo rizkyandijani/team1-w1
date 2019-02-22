@@ -198,7 +198,17 @@ input[type=tel] {
     padding: 12px 20px;
 }
 
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+}
+
 textarea {
+    width: 100%;
+    padding: 12px 20px;
+}
+
+select {
     width: 100%;
     padding: 12px 20px;
 }
@@ -291,6 +301,8 @@ h1.centered {
 }
 
 .hour {
+    position: relative;
+
     background-image: url(../pic/time.jpg);
     background-repeat: no-repeat;
     background-size: 30%;
@@ -303,4 +315,169 @@ h1.centered {
 
 .simcol {
     background-color: black;
+}
+
+/* yuda menambahkan ini*/
+
+.price p {
+    text-decoration: none;
+    margin: 20 90;
+    position: relative;
+    padding: 50px 100px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.price li {
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+}
+
+.price h5 {
+    text-decoration: none;
+    position: relative;
+    margin: 0 auto;
+    background-color: black;
+    color: aliceblue;
+}
+
+.price h2 {
+    position: relative;
+    background-color: black;
+}
+
+/* 
+.price h1 {
+    text-align: center;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 12px #000000;
+} */
+
+.reserve {
+    width: 100%;
+}
+
+/* .reserve form {
+    position: relative;
+    display: inline;
+    margin: 0 auto;
+} */
+
+.reserve h1 {
+    background: url(../pic/reserve1.png) center;
+    background-size: 100%;
+    width: 100%;
+    height: 50px;
+    color: bisque
+}
+
+.reserve form {
+    position: relative;
+    /* left: 420px; */
+    margin: 0 auto;
+    /* width: 800px; */
+    display: inline-block;
+    text-align: left;
+}
+
+.reserve p {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.booked {
+    position: static;
+    padding: 30px;
+    margin: 40px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.booked a {
+    text-decoration: none;
+    margin: 20px;
+    top: 20px;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: wheat;
+}
+
+.button2 {
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.button2:hover {
+    background-color: black;
+    color: white;
+}
+
+/* .reserve input[type=text] {
+    width: 300px;
+    height: 5px;
+    padding: 10 30;
+}
+
+.reserve input[type=tel] {
+    width: 260px;
+    height: 5px;
+    padding: 10 30;
+}
+
+.reserve input[type=email] {
+    width: 320px;
+    height: 5px;
+    padding: 10 30;
+} */
+
+.price {
+    background: url(../pic/price.jpg) center;
+    background-size: 100%;
+    width: 100%;
+    height: 200px;
+    color: bisque
+}
+
+.midprice {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    display: inline;
+}
+
+.price a {
+    text-decoration: none;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+}
+
+.price a:hover {
+    background-color: gray;
+
+}
+
+.reserve p {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
 }
