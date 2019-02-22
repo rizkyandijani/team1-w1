@@ -71,7 +71,7 @@ li a {
 #mainlogo {font-size: 100px;
 }
 
-#oran {color: #f0a35c;
+#oran {color: #efa35b;
 }
 
 .about {padding-left: 48px; padding-right: 48px;
@@ -82,8 +82,8 @@ li a {
     width: 60px;
     text-align: center;
     position: fixed;
-    top: 580px;
-    left: 1230px;
+    bottom: 68px;
+    right: 77px;
     text-decoration: none;
 }
 
@@ -103,6 +103,7 @@ li a {
 
 .contact {
     background: url(../pic/contact-us.png) center center;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
 }
@@ -120,8 +121,8 @@ li a {
 **/
 .contact form {
     position: relative;
-    left: 420px;
-    margin: 20px;
+    left: 200px;
+    margin: 16px;
     display: inline-block;
 
 }
@@ -129,9 +130,10 @@ li a {
 .contact p {
     position: relative;
     display: inline-block;
-    margin: 20px;
-    float: right;
-    right: 60px;
+    /* margin: 20px;
+    float: right; */
+    left: 265px;
+    bottom: 118px;
 }
 
 .button1 {
@@ -217,7 +219,10 @@ h1.centered {font-size: 68px;
 .sims {font-size: 20px;
 }
 
-.contactinfotext {font-size: 18px;
+.contactinfotext {font-size: 16px;
     color: black;
-    text-shadow: 0 0 4px #ffffff;
+    text-shadow: 0 0 3px #ffffff;
+    background-color :rgba(219, 136, 27, 0.74);
+    padding: 16px 15px;
+    border-radius: 16px;
 }
